@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, ForeignKey, Index
+from sqlalchemy import Column, Integer, String, ForeignKey, Index, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 
@@ -10,7 +10,7 @@ class HostageModel(Base):
     email = Column(String)
     username = Column(String)
     ip_address = Column(String)
-    created_at = Column(String)
+    created_at = Column(DateTime)
     location_id = Column(Integer, ForeignKey('locations.id'))
     device_info = Column(Integer, ForeignKey('devices.id'))
-    sentences = Column(List)
+    sentences = Column(Integer, ForeignKey('sentences.id'))

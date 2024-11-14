@@ -1,8 +1,6 @@
 from sqlalchemy import Column, Integer, String, ForeignKey, Index, DateTime
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship
+from main_service.models.Base import Base
 
-Base = declarative_base()
 
 class HostageModel(Base):
     __tablename__ = 'suspicious_hostage_content'

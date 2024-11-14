@@ -22,7 +22,7 @@ def explosive_email(email_data):
         value_serializer=lambda v: json.dumps(v).encode('utf-8'),
     )
     producer.send(
-        os.environ['TOPIC_MESSAGES_EXPLOSIVE_NAME'],
+        'emails.explosive',
         value=email_data
     )
     producer.flush()
@@ -33,7 +33,7 @@ def hostage_email(email_data):
         value_serializer=lambda v: json.dumps(v).encode('utf-8'),
     )
     producer.send(
-        os.environ['TOPIC_MESSAGES_HOSTAGE_NAME'],
+        'emails.hostages',
         value=email_data
     )
     producer.flush()

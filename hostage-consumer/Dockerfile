@@ -3,4 +3,4 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 COPY hostage_consumer.py .
-CMD ["python", "fraud_consumer.py"]
+CMD ["python", "hostage_consumer.py"]

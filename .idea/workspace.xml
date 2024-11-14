@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c4a9cce1-e9ed-408b-ac9c-391937f3d700" name="Changes" comment="create a blueprints email api">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_message-consumer/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_message-consumer/all_message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_message-consumer/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_service/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_service/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_service/models/sentences_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/sentences_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/user_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup_kafka_vendor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueprints/email_bp.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_service/emails_bp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emails_producer/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/emails_producer/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emails_producer/emails_producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/emails_producer/emails_producer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emails_producer/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/emails_producer/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explosive-consumer/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/explosive-consumer/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explosive-consumer/explosive_consumer.py" beforeDir="false" afterPath="$PROJECT_DIR$/explosive-consumer/explosive_consumer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explosive-consumer/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/explosive-consumer/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hostage-consumer/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/hostage-consumer/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_service/models/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_service/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_service/models/explosive_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_service/models/explosive_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_service/models/hostage_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_service/models/hostage_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_service/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/main_service/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="Python Script" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Shalombergman"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Shalombergman/E-mail_listening_and_monitoring_test9.git",
+    "accountId": "af0cea8e-769f-4a54-bd51-065371f9d1cc"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2opdLPhizh3nIxb9bQXL3SOAYv0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\kodcode2\python_data\kafka\E-mail_listening_and_monitoring_test9\main_service" />
+      <recent name="C:\kodcode2\python_data\kafka\E-mail_listening_and_monitoring_test9\emails_producer" />
+      <recent name="C:\kodcode2\python_data\kafka\E-mail_listening_and_monitoring_test9\explosive-consumer" />
+      <recent name="C:\kodcode2\python_data\kafka\E-mail_listening_and_monitoring_test9" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="E-mail_listening_and_monitoring_test9" type="Python.FlaskServer">
+      <module name="E-mail_listening_and_monitoring_test9" />
+      <option name="target" value="$PROJECT_DIR$/main.py" />
+      <option name="targetType" value="PATH" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4a9cce1-e9ed-408b-ac9c-391937f3d700" name="Changes" comment="" />
+      <created>1731570394440</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731570394440</updated>
+      <workItem from="1731570405333" duration="24909000" />
+    </task>
+    <task id="LOCAL‎-00001" summary="Opening a folder infrastructure and Docker file in each service">
+      <option name="closed" value="true" />
+      <created>1731574018360</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL‎-00001" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1731574018360</updated>
+    </task>
+    <task id="LOCAL‎-00002" summary="Writing a req file in each service">
+      <option name="closed" value="true" />
+      <created>1731574078698</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL‎-00002" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1731574078698</updated>
+    </task>
+    <task id="LOCAL‎-00003" summary="Writing a docker-compose.yml">
+      <option name="closed" value="true" />
+      <created>1731574129638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1731574129638</updated>
+    </task>
+    <task id="LOCAL‎-00004" summary="creation a model device_info_model.py">
+      <option name="closed" value="true" />
+      <created>1731576228658</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL‎-00004" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1731576228658</updated>
+    </task>
+    <task id="LOCAL‎-00005" summary="creation a model explosive_model.py.py">
+      <option name="closed" value="true" />
+      <created>1731576250783</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL‎-00005" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1731576250783</updated>
+    </task>
+    <task id="LOCAL‎-00006" summary="creation a model hostage_model.py">
+      <option name="closed" value="true" />
+      <created>1731576269923</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL‎-00006" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1731576269923</updated>
+    </task>
+    <task id="LOCAL‎-00007" summary="creation a model location_model.py.py">
+      <option name="closed" value="true" />
+      <created>1731576283263</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL‎-00007" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1731576283263</updated>
+    </task>
+    <task id="LOCAL‎-00008" summary="chanch a type of created_at to DateTime">
+      <option name="closed" value="true" />
+      <created>1731577151946</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL‎-00008" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1731577151946</updated>
+    </task>
+    <task id="LOCAL‎-00009" summary="chance a type of &quot;device_id&quot; to String">
+      <option name="closed" value="true" />
+      <created>1731577261601</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL‎-00009" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1731577261601</updated>
+    </task>
+    <task id="LOCAL‎-00010" summary="create a User model and chance the models and raealationship">
+      <option name="closed" value="true" />
+      <created>1731581889517</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL‎-00010" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1731581889517</updated>
+    </task>
+    <task id="LOCAL‎-00011" summary="create a User model and chance the models and raealationship">
+      <option name="closed" value="true" />
+      <created>1731581905257</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL‎-00011" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1731581905257</updated>
+    </task>
+    <task id="LOCAL‎-00012" summary="create a consumer explosive">
+      <option name="closed" value="true" />
+      <created>1731588434754</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL‎-00012" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1731588434754</updated>
+    </task>
+    <task id="LOCAL‎-00013" summary="create a consumer hostage">
+      <option name="closed" value="true" />
+      <created>1731588454751</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL‎-00013" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1731588454751</updated>
+    </task>
+    <task id="LOCAL‎-00014" summary="create a blueprints email api">
+      <option name="closed" value="true" />
+      <created>1731588519261</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL‎-00014" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1731588519261</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Opening a folder infrastructure and Docker file in each service" />
+    <MESSAGE value="Writing a req file in each service" />
+    <MESSAGE value="Writing a docker-compose.yml" />
+    <MESSAGE value="creation a model device_info_model.py" />
+    <MESSAGE value="creation a model explosive_model.py.py" />
+    <MESSAGE value="creation a model hostage_model.py" />
+    <MESSAGE value="creation a model location_model.py.py" />
+    <MESSAGE value="chanch a type of created_at to DateTime" />
+    <MESSAGE value="chance a type of &quot;device_id&quot; to String" />
+    <MESSAGE value="create a User model and chance the models and raealationship" />
+    <MESSAGE value="create a consumer explosive" />
+    <MESSAGE value="create a consumer hostage" />
+    <MESSAGE value="create a blueprints email api" />
+    <option name="LAST_COMMIT_MESSAGE" value="create a blueprints email api" />
+  </component>
+</project>

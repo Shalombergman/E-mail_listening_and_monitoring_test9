@@ -2,5 +2,5 @@ FROM python:3.9-slim
 WORKDIR /app
 COPY requirements.txt .
 RUN pip install -r requirements.txt
-COPY explosive_consumer.py .
-CMD ["python", "explosive_consumer.py"]
+COPY all_message.py .
+CMD ["python", "all_message.py"]

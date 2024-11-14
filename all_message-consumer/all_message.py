@@ -1,20 +1,18 @@
 from kafka import KafkaConsumer
 import json
-from pymongo import MongoClient
-
-# MongoDB setup
+from main_service.database import save_to_mongo
 
 
 # Kafka consumer setup
 consumer = KafkaConsumer(
-    'emails.explosive',
+    'messages.all',
     bootstrap_servers=['kafka:9092'],
     auto_offset_reset='earliest',
-    group_id='emails_explosive_group',
+    group_id='messages_all_group',
     value_deserializer=lambda m: json.loads(m.decode('utf-8'))
 )
 
 for message in consumer:
-    sentences = message.value
-    #collection.insert_one(sentences)
-    print(f"emails explosive: {sentences}")
+    message = message.value
+    save_to_mongo(message)
+    print(f"insertion to message into collection message.all : {message}")

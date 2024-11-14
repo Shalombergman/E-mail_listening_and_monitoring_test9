@@ -8,3 +8,11 @@ Base = declarative_base()
 
 class ExplosiveModel(Base):
     __tablename__ = 'suspicious_explosive_content'
+    id = Column(Integer, primary_key=True)
+    email = Column(String)
+    username = Column(String)
+    ip_address = Column(String)
+    created_at = Column(String)
+    location_id = Column(Integer, ForeignKey('locations.id'))
+    device_info = Column(Integer, ForeignKey('devices.id'))
+    sentences = Column(List)
